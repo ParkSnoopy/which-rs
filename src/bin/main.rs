@@ -1,4 +1,4 @@
-use which::which;
+use crate::which;
 use std::env;
 
 fn main() {
