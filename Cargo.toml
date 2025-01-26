@@ -1,6 +1,6 @@
 [package]
 name = "which_cli"
-version = "7.0.1"
+version = "0.1.0"
 edition = "2021"
 rust-version = "1.70"
 authors = ["ParkSnoopy <117149837+ParkSnoopy@users.noreply.github.com>"]
@@ -39,3 +39,4 @@ all-features = true
 [[bin]]
 name = "which"
 path = "src/bin/main.rs"
+required-features = ["regex", "tracing"]
