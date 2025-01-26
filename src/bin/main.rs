@@ -1,4 +1,4 @@
-use crate::which;
+use which_cli::which;
 use std::env;
 
 fn main() {

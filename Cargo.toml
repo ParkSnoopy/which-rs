@@ -39,4 +39,3 @@ all-features = true
 [[bin]]
 name = "which"
 path = "src/bin/main.rs"
-required-features = ["regex", "tracing"]
